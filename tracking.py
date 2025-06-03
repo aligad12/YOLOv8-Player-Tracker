@@ -13,7 +13,7 @@ model = YOLO('yolov8m.pt')
 deepsort = DeepSort(max_age=30, n_init=3, nms_max_overlap=1.0, max_cosine_distance=0.3, nn_budget=None)
 
 # Open the football match video
-video_path =  r'C:\Users\Alaa\Downloads\Video\DFL Bundesliga 460 MP4 Videos in 30Sec. + CSV_3.mp4' # Path to your video file
+video_path =  r'' # Path to your video file
 cap = cv2.VideoCapture(video_path)
 
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
