@@ -38,7 +38,7 @@ def show_heatmap():
             heatmap_normalized = heatmap / np.max(heatmap) if np.max(heatmap) > 0 else heatmap  # Normalize heatmap
 
             # Load the playground background image
-            background = Image.open(r'C:\Users\Alaa\Downloads\football.jpg')
+            background = Image.open("you should put here path of an image of a football pitch for the background on your pc.")
 
             # Plotting the heatmap with the background
             plt.figure(figsize=(10, 8))
