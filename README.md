@@ -28,8 +28,10 @@ This project uses **YOLOv8** to detect and track football players in match foota
 ## 🎥 Demo
 
 <p align="center">
+  <img src="media/demo.gif" width="600" alt="Demo GIF"/>
   <img src="media/heatmap.png" width="600"/>
 </p>
+
 
 ---
 
